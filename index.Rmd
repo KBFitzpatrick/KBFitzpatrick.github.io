@@ -1,5 +1,5 @@
 ---
-title: "Kimberly's Website"
+title: "K.B. Fitzpatrick"
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
