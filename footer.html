@@ -11,7 +11,7 @@
 
 
 
-<title>Hello!</title>
+<title>footer</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -276,14 +276,35 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Hello!</h1>
+<h1 class="title toc-ignore">footer</h1>
 
 </div>
 
 
-<p><br></p>
-<p>I am a quantitative ecologist with a focus on fisheries management and population dynamics.My research interests center on developing innovative statistical tools that leverage ecological dynamics to support resource-efficient fisheries assessments.</p>
-<p>Currently, I am finishing up my Ph.D. in Natural Resources at Cornell University as part of the Sethi Lab and the New York Cooperative Research Unit. My Ph.D. research has involved working closely with fisheries managers and biologists to develop stock assessment tools for informing recreational fisheries management in Lake Ontario. Prior to Cornell, I received my M.S. in Geography from the University of Oklahoma while doing research on optimizing fish passage restoration and my B.S. in Marine Science from Eckerd College. <br> In my free time, I am an avid baker and particularly enjoy creating aquatic themed baked goods!</p>
+<style type="text/css">
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0;
+}
+</style>
+<script type="text/javascript">
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+</script>
+<div class="footer text-muted bg-info">
+<p>Kimberly B. Fitzpatrick | <a href="mailto:kbf53@cornell.edu" class="email">kbf53@cornell.edu</a> | Fernow Hall, Ithaca New York</p>
+</div>
 
 
 

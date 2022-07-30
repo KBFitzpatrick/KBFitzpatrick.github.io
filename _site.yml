@@ -1,6 +1,11 @@
 name: "K.B. Fitzpatrick"
 navbar:
-  title: "K.B. Fitzpatrick"
+  title: "Kimberly B. Fitzpatrick"
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<kbf53@cornell.edu>
+    - icon: fa fa-twitter fa-stack-1x
+      href: https://twitter.com/kbfitzpatrick
   left:
     - text: "Home"
       href: index.html
@@ -12,3 +17,6 @@ output:
     theme: flatly
     highlight: textmate
     toc_float: true
+include:
+      after_body: footer.html
+    
