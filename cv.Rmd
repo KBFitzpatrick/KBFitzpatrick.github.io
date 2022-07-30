@@ -1,0 +1,37 @@
+---
+title: "Curriculum Vitae"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+-----
+
+## **Education **
+
+
+<span style="text-align:left"> <font size="+1.5">
+    **PhD Candidate in Natural Resources:** Cornell University  </font>
+    <span style="float:right;">       2017 - Dec 2022 (anticipated)  </span> 
+<br> 
+**Concentrations**: Fishery and Aquatic Science, Applied Statistics, Quantitative Ecology <br> 
+**Advisor**: Dr. Suresh Sethi <br> 
+**Dissertation Title**: *Modeling Predator-Prey Dynamics to Support Fisheries Management* <br> 
+
+
+<span style="text-align:left"> <font size="+1.5">
+    **MS in Geography:** University of Oklahoma  </font>
+    <span style="float:right;">       2015 - 2017  </span> 
+<br> 
+**Advisor**: Dr. Tom Neeson <br> 
+**Thesis Title**: *Return-On-Investment Frameworks can Increase the Efficiency of Restoration Efforts to Improve Freshwater Connectivity* <br> 
+
+<span style="text-align:left"> <font size="+1.5">
+    **BS in Marine Science:** Eckerd College  </font>
+    <span style="float:right;">       2011 - 2015 </span> 
+<br> 
+**Concentrations:** Biology; **Minor:** Computer Science <br>
+**Advisor**: Dr. Nancy Smith <br> 
+**Thesis Title**: *Swimming behavior of marine cercariae:effects of gravity and hydrostatic pressure*<br> 
+
