@@ -1,0 +1,11 @@
+---
+title: "header"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+
+<link rel="shortcut icon" href="C:\\Users\\Kimberly\\Documents\\website\\KBFitzpatrick.github.io\\pictures\\android-chrome-192x192.png" />

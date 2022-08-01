@@ -1,0 +1,43 @@
+---
+title: "Research Topics"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+Recreational fisheries, models that incorporate ecological knowledge and meet management needs
+
+
+### Multispecies Stock Assessments ###
+<img src="pictures//IMG-3682(1).jpg" alt="Kimberly Fitzpatrick with Chinook Salmon" width="24%" align="left" hspace="20" vspace="1">
+
+In collaboration with with Lake Ontario managers and biologists, I developed a multispecies statistical catch-at-age model to estiamte the joint populations of two recreational fisheries, Chinook Salmon and Lake Trout, and their shared primary prey species, Alewife. This model emphasizes the predator-prey dynamcis that are core Great Lakes fisheries management. 
+
+### Resource-Efficenct Managemnt and Monitoring Tools ###
+
+Limited financial and personell resources are a reality for conservation and managment organizations, yet are still rarely incorporated directly into assessment tools. Across my research topics, I have explored how ecological knowledge can inform cost-effective managment actions and montioring programs.
+
+My past research has used individual-based models to evaluate the return-on-investment of barrier removals for restoring habitat for stream-resident and migratory fishes. 
+
+Currently, I am working with NYSDEC and OMNDMNRF researchers to evaluate mass marking programs that are cost-effective, informative, and that align with manamegemnt procedures. 
+
+### Parentage-based Tagging ###
+<img src="pictures//SRHatchery_CHKGenetics_snips_Oct2019.jpg" alt="Kimberly Fitzpatrick collecting fin clips at Salmon River Hatchery" width="24%" align="left" hspace="20" vspace="1">
+Stocked wild important for Lake O. 
+
+Since 2018, tissue samples from all Lake Ontario Chinook Salmon broodmothers have been collected to support this program even under staff-limiting Covid-19 restrictions.
+
+This research would not have been feasible without the support of NYSDEC and OMNDMNRF staff during collections. 
+
+This projec
+
+
+### Spatial Ecology ###
+<img src="pictures//FitzpatrickNeeson_EcolMod_Fig2_2018.jpg" alt="Figure 2 from Fitzpatrick and Neeson 2018" width="24%" align="left" hspace="20" vspace="1">
+Understanding how ecological, environmental, and anthprogenic factors interact across space can help guide managment and conservation actions. At OU, I identified and evaluated how a suite of indicator species could inform spatially optimal barrier removals for native fish habitat restoration. 
+
+
+
+
