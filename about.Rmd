@@ -1,9 +1,21 @@
 ---
-title: "About"
+title: "Contact Information"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = T)
 ```
-Hello about section!
+-----
+<img src="pictures//SRHatchery_CHKGenetics_Oct2019.jpg" alt="Kimberly Fitzpatrick collecting tissue samples" width="24%" align="left" hspace="20" vspace="1">
+
+## **Kimberly Fitzpatrick **<br>
+
+
+
+#### PhD Candidate <br>
+Cornell University, [Dept. of Natural Resources and the Environment](https://cals.cornell.edu/natural-resources-environment)<br>
+Email: kbf53@cornell.edu<br>
+Twitter: [\@kbfitzpatrick](https://twitter.com/kbfitzpatrick)<br>
+Google scholar [link](https://scholar.google.com/citations?user=etDM-cgAAAAJ&hl=en&oi=ao)<br>
+Lab: [Sethi Lab](https://blogs.cornell.edu/sethilab/)<br>
