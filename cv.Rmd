@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = T)
 ```
 -----
-download cv <a href="KBFitzpatrick.github.io/Fitzpatrick_Kimberly_cv.pdf" target="_blank">PDF.</a>
+download cv <a href="Fitzpatrick_Kimberly_cv.pdf" target="_blank">PDF.</a>
 
 ## **Education **
 
