@@ -10,7 +10,6 @@ knitr::opts_chunk$set(echo = T)
 
 ## **Education **
 
-
 <span style="text-align:left"> <font size="+1.5">
     **PhD Candidate in Natural Resources:** Cornell University  </font>
     <span style="float:right;">       2017 - Dec 2022 (anticipated)  </span> 
@@ -34,4 +33,79 @@ knitr::opts_chunk$set(echo = T)
 **Concentrations:** Biology; **Minor:** Computer Science <br>
 **Advisor**: Dr. Nancy Smith <br> 
 **Thesis Title**: *Swimming behavior of marine cercariae:effects of gravity and hydrostatic pressure*<br> 
+<br>
+
+## **Employment Record **
+
+<span style="text-align:left"> <font size="+1.5">
+    **Graduate Research Assistant:**  </font>
+    <span style="float:right;">       2017 - Present  </span> 
+<br> 
+<i>New York Cooperative Fish and Wildlife Research Unit, Cornell University </i> <br> 
+<span style="text-align:left"> <font size="+1.5">
+    **Graduate Teaching Assistant:**  </font>
+    <span style="float:right;">       Aug 2021 - Dec 2021  </span> 
+<br> 
+<i>Department of Natural Resources and the Environment, Cornell University </i> <br> 
+<span style="text-align:left"> <font size="+1.5">
+    **Graduate Research Assistant:**  </font>
+    <span style="float:right;">       Aug 2021 - Dec 2021  </span> 
+<br> 
+<i>Department of Geography and Environmental Sustainability, University of Oklahoma </i> <br> 
+<span style="text-align:left"> <font size="+1.5">
+    **Ford Apprentice Scholar Intern:**  </font>
+    <span style="float:right;">       May 2014 - Aug 2014  </span> 
+<br> 
+<i>Eckerd College </i> <br> 
+<span style="text-align:left"> <font size="+1.5">
+    **National Science Foundation Research Experience for Undergraduates Intern:**  </font>
+    <span style="float:right;">       May 2012 - Aug 2012  </span> 
+<br> 
+<i>Radford University </i> <br>
+<span style="text-align:left"> <font size="+1.5">
+    **Marine Science Freshman Researcher :**  </font>
+    <span style="float:right;">       Aug 2011 - May 2012  </span> 
+<br> 
+<i>Eckerd College</i> <br>
+
+## **Publications**
+<b>Fitzpatrick, K.B.,</b> Overgaard Therkildsen, N., Marcy-Quay, B., Borchardt-Wier, H.B., Sethi, S.A. Discriminating between natural and stocked recruitment in inland fisheries using parentage-based tagging. In review at Fisheries Management and Ecology. <br>
+
+<b>Fitzpatrick, K.B., </b> Weidel, B.C., Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B., LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A. 2022. Balancing prey availability and predator consumption: a multispecies stock assessment for Lake Ontario. Canadian Journal of Fisheries and Aquatic Sciences.
+
+<b>Fitzpatrick, K.B.,</b> Moody, A.T., Milt, A., Herbert, M.E, Khoury, M., Yacobson, E., Ross, J.A., Doran, P.J., Ferris, M.C., McIntyre, P.B., Neeson, T.M. 2021. Can indicator species guide conservation investments to restore connectivity in Great Lakes tributaries? Biodiversity and Conservation. 30: 165-182. https://doi.org/10.1007/s10531-020-02084-5 <br>
+
+Andres, K.J., Sethi, S.A., Dusky, E., Lepak, J.M., Rice, A.N., Estabrook, B.J.,<b> Fitzpatrick, K.B.,</b> George, E., Marcy-Quay, B., Paufve, M.R., Perkins, K., Scofield, A.E. 2020. Seasonal habitat use indicates that depth may mediate the potential for invasive round goby impacts in inland lakes. Freshwater Biology. 65(8): 1337-1347. https://doi.org/10.1111/fwb.13502 <br>
+
+Neeson, T.M., Doran, P.J., Ferris, M.C., <b> Fitzpatrick, K.B., </b> Herbert, M., Khoury, M., Moody, A.T., Ross, J., Yacobson, E., McIntyre, P.B. 2018. Conserving rare species can have high opportunity costs for common species. Global Change Biology. 24(8): 3862-3872. https://doi.org/10.1111/gcb.14162 <br>
+
+<b>Fitzpatrick, K.B., </b> Neeson, T.M. 2018. Aligning dam removals and road culvert upgrades boosts conservation return-on-investment. Ecological Modelling. 368: 198-204. https://doi.org/10.1016/j.ecolmodel.2017.11.018 <br>
+
+<b>Fitzpatrick, K.B.,</b> Smith, N.F., Cohen, J.H. 2016. Swimming behavior of marine cercariae: effects of gravity and hydrostatic pressure. Journal of Experimental Marine Biology and Ecology. 476: 8-14. https://doi.org/10.1016/j.jembe.2015.12.002 
+
+## **Recent Presentations**
+<b>Fitzpatrick, K.B.,</b> Overgaard Therkildsen, N., Marcy-Quay, B., Borchardt-Wier, H.B., Sethi, S.A. 2022. Parentage-Based Tagging to Support the Conservation and Management of Inland Fish Populations. Joint Aquatic Sciences Meeting. May 19
+
+<b>Fitzpatrick, K.B.</b> 2022. Modeling Predator-Prey Dynamics to Support Fisheries Management. Cornell Unviersity Department of Natural Resources and the Environment Seminar Series. April 19. Recording: https://vod.video.cornell.edu/media/Clip+of+DNRE+Seminar+Kimberly+Fitzpatrick%2A/1_tqh9pu2r
+
+<b>Fitzpatrick, K.B.,</b> Connerton, M.J., Yuille, M.J., Overgaard Therkildsen, N., Sethi, S.A. 2021. Minimizing cost and uncertainty: assessing marking techniques to distinguish stocked and wild fish. International Association of Great Lakes Research. May 17-21. 
+
+<b>Fitzpatrick, K.B.,</b> Weidel, B.C., Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B., LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A. 2021. Predator-prey population dynamics modeling for Chinook salmon and alewife in Lake Ontario. New York Chapter of the American Fisheries Society Annual Meeting. Feb. 6.
+
+<b>Fitzpatrick, K.B.,</b> Weidel, B.C., Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B., LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A. 2020. Balancing Predator Consumption and Prey Availability in an Intensively Managed Fishery: A Multispecies Statistical Catch-at-Age Model for Lake Ontario. American Fisheries Society Annual Meeting. Sept. 14.
+
+## **Computer Software Skill**
+Mathematical and statistical model development, data analyses, and programing: R, AD Model Builder (ADMB), Java, Python.
+
+Spatial analyses and GIS: ArcGIS
+
+Parentage Analysis: Cervus, Colony, CKMRsim (R package)
+
+Coursework using: QGIS, GRASS, Git and Github, SQL, WinBUGS, Program Mark, website development languages (html, css, php, MySQL, JavaScript)
+
+## **Teaching Experience**
+Teaching Assistant: Cornell University, Understanding Environment and Sustainability – Fall 2021
+
+Teaching Assistant: Eckerd College, Marine Invertebrate Biology – Fall 2014
+
 
