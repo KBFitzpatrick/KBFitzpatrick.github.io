@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: <a href="https://github.com/KBFitzpatrick/KBFitzpatrick.github.io/raw/main/Fitzpatrick_Kimberly_cv.pdf">cv.pdf</a>
 output: html_document
 ---
 
@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = T)
 ```
 -----
-download cv <a href="https://github.com/KBFitzpatrick/KBFitzpatrick.github.io/raw/main/Fitzpatrick_Kimberly_cv.pdf">PDF.</a>
+<a href="https://github.com/KBFitzpatrick/KBFitzpatrick.github.io/raw/main/Fitzpatrick_Kimberly_cv.pdf">cv.pdf</a>
 
 ## **Education **
 
