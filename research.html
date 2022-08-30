@@ -13,7 +13,7 @@
 
 <title>Research Topics</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -262,7 +266,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:&lt;kbf53@cornell.edu&gt;">
+  <a href="https://kbfitzpatrick.github.io/about.html">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -290,22 +294,116 @@ $(document).ready(function () {
 <p><br> <br></p>
 <div id="multispecies-stock-assessments" class="section level3">
 <h3>Multispecies Stock Assessments</h3>
-<p><br><img src="pictures/IMG-3682%20(1).JPG" alt="Kimberly Fitzpatrick with Chinook Salmon" width="25%" align="left" hspace="10" vspace="10"> There is growing awareness that incorporating ecosystem interactions directly into fisheries assessment models may improve estimates of species dynamics and predictions of future sustainability by incorporating the impact of ecological interactions on fishery productivity and sustainability. The success of these models across a variety of ecosystems has demonstrated that multispecies models show great promise in supporting fisheries management in ecosystems that are dominated by strong ecological interactions. In the Laurentian Great Lakes, culturally and economically important recreational salmonine fisheries are known to be dependent on the continued availability of their primary prey item. Fisheries managers have sought to balance predation pressure from stocked and naturally reproduced salmonine populations with fluctuating prey availability by adjusting the number of fish stocked in response to shifts in prey biomass. As single species models fail to capture the trophic interactions that underlie management decision making for these fisheries, my research has focused on the development of multispecies tools that capture the trophic interactions that underlie fishery sustainability and management decision-making in the Laurentian Great Lakes.</p>
-<p>In collaboration with regional managers and biologists, I developed a novel multispecies statistical catch-at-age model for two recreational fisheries (Chinook Salmon and Lake Trout) and their shared primary prey item (Alewife) in Lake Ontario (Fitzpatrick et al. 2022). The model includes three population dynamics models linked together by predation and bioenergetics sub-models. Thus, the model is able to jointly estimate the dynamics of all three species and the amount of predation pressure on the prey population.</p>
+<p><br><img src="pictures/IMG-3682%20(1).JPG" alt="Kimberly Fitzpatrick with Chinook Salmon" width="25%" align="left" hspace="10" vspace="10">
+There is growing awareness that incorporating ecosystem interactions
+directly into fisheries assessment models may improve estimates of
+species dynamics and predictions of future sustainability by
+incorporating the impact of ecological interactions on fishery
+productivity and sustainability. In the Laurentian Great Lakes,
+culturally and economically important recreational salmonine fisheries
+are known to be dependent on the continued availability of their primary
+prey item. In collaboration with regional managers and biologists, I
+developed a novel multispecies statistical catch-at-age model for two
+recreational fisheries (Chinook Salmon and Lake Trout) and their shared
+primary prey item (Alewife) in Lake Ontario. The model includes three
+population dynamics models linked together by predation and
+bioenergetics sub-models. Thus, the model is able to jointly estimate
+the dynamics of all three species and the amount of predation pressure
+on the prey population.</p>
+<p><b>Recent Publications</b> <b>Fitzpatrick, K.B., </b> Weidel, B.C.,
+Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B.,
+LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A.
+2022. Balancing prey availability and predator consumption: a
+multispecies stock assessment for Lake Ontario. Canadian Journal of
+Fisheries and Aquatic Sciences. <a
+href="https://doi.org/10.1139/cjfas-2021-0126"
+class="uri">https://doi.org/10.1139/cjfas-2021-0126</a></p>
 <p><br></p>
 </div>
-<div id="risk-assessment-and-projections-of-future-fishery-sustainability" class="section level3">
-<h3>Risk-Assessment and Projections of Future Fishery Sustainability</h3>
-<p><br><img src="pictures/salmon_river_smolt.jpg" alt="Naturally reproduced Chinook Salmon smolt from Salmon River, NY" width="24%" align="left" hspace="20" vspace="20"> <br> Fisheries with tight linkages to other species through predator-prey or other trophic dynamics, multispecies analyses can provide critical insight into how management decisions and species interactions can influence future fishery sustainability. I am collaborating with Lake Ontario manages and biologists to use the multispecies model to develop short-term forecasts of predator-prey dynamics in response to varying ecological dynamics and management actions (predator stocking). I develop the statistical simulations to examine if changes in hatchery augmentation of the Chinook Salmon population could offset the impact of increased natural Chinook Salmon recruitment on the available prey fish biomass (Fitzpatrick et al. 2022). I found that changes in stocking practices alone would be unable to substantially reduce prey mortality to reduce the probability of declines in prey fish biomass. Additionally, after recent variability in prey recruitment regimes, I added in simulations to examine how the temporal variability in strong prey recruitment years could substantially lower the sustainability of the salmon and trout fisheries. These forecasts serve dual purposes of supporting current stocking decisions and highlighting data needs to informing future management decision making. I found that greater understanding of drivers Alewife and Chinook Salmon recruitment, including potential predation interactions between age-0 alewife and age-0 salmon, could improve our predictions of future predator-prey dynamics. <br></p>
+<div
+id="risk-assessment-and-projections-of-future-fishery-sustainability"
+class="section level3">
+<h3>Risk-Assessment and Projections of Future Fishery
+Sustainability</h3>
+<p><br><img src="pictures/salmon_river_smolt.jpg" alt="Naturally reproduced Chinook Salmon smolt from Salmon River, NY" width="24%" align="left" hspace="20" vspace="20">
+<br> Fisheries with tight linkages to other species through
+predator-prey or other trophic dynamics, multispecies analyses can
+provide critical insight into how management decisions and species
+interactions can influence future fishery sustainability. I am
+collaborating with Lake Ontario manages and biologists to use the
+multispecies model to develop short-term forecasts of predator-prey
+dynamics in response to varying ecological dynamics and management
+actions (predator stocking). We found that changes in stocking practices
+alone would be unable to substantially reduce prey mortality to reduce
+the probability of declines in prey fish biomass. These forecasts serve
+dual purposes of supporting current stocking decisions and highlighting
+data needs to informing future management decision making. We found that
+greater understanding of drivers Alewife and Chinook Salmon recruitment,
+including potential predation interactions between age-0 alewife and
+age-0 salmon, could improve our predictions of future predator-prey
+dynamics. <br></p>
+<p><b>Recent Publications</b> <b>Fitzpatrick, K.B., </b> Weidel, B.C.,
+Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B.,
+LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A.
+2022. Balancing prey availability and predator consumption: a
+multispecies stock assessment for Lake Ontario. Canadian Journal of
+Fisheries and Aquatic Sciences. <a
+href="https://doi.org/10.1139/cjfas-2021-0126"
+class="uri">https://doi.org/10.1139/cjfas-2021-0126</a></p>
 </div>
-<div id="parentage-based-tagging" class="section level3">
-<h3>Parentage-based Tagging</h3>
-<p><br> <img src="pictures/SRHatchery_CHKGenetics_snip_Oct2019.jpg" alt="Kimberly Fitzpatrick collecting fin clips at Salmon River Hatchery" width="15%"  align="left" hspace="20" vspace="1"></p>
-<p>Since 2018, I have been Working with NYSDEC and OMNDMNRF to develop a mass marking program for Chinook Salmon in Lake Ontario. I have led the pilot analysis of parentage-based tagging – genetically matching hatchery-raised offspring to their broodstock parents – in Lake Ontario and found that parentage-based tagging could be both a highly accurate and resource-efficient monitoring program for Chinook Salmon (Fitzpatrick et al. in review). <br></p>
+<div id="resource-efficent-monitoring-programs" class="section level3">
+<h3>Resource-Efficent Monitoring Programs</h3>
+<p><br>
+<img src="pictures/SRHatchery_CHKGenetics_snip_Oct2019.jpg" alt="Kimberly Fitzpatrick collecting fin clips at Salmon River Hatchery" width="24%"  align="left" hspace="20" vspace="1">
+Limited financial and personnel resources are a reality for management
+and conservation interests, and investment into one program often comes
+at the cost of other potential management and monitoring efforts. Thus,
+ideal monitoring programs are resource-efficent, inform management
+decision making, and align with existing management protocols and
+procedures. Since 2018, I have been Working with NYSDEC and OMNDMNRF to
+develop a mass marking program for Chinook Salmon in Lake Ontario. I
+have led the pilot analysis of parentage-based tagging – genetically
+matching hatchery-raised offspring to their broodstock parents – in Lake
+Ontario and found that parentage-based tagging could be both a highly
+accurate and resource-efficient program for monitoring the dynamics of
+hatchery-origin and naturally reproduced Chinook Salmon in Lake
+Ontario.</p>
+<p><br> <b>Recent Publications</b> <b>Fitzpatrick, K.B.,</b> Overgaard
+Therkildsen, N., Marcy-Quay, B., Borchardt-Wier, H.B., Sethi, S.A.
+Discriminating between natural and stocked recruitment in inland
+fisheries using parentage-based tagging. In review at Fisheries
+Management and Ecology. <br></p>
 </div>
 <div id="spatial-ecology" class="section level3">
 <h3>Spatial Ecology</h3>
-<p><img src="pictures/FitzpatrickNeeson_EcolMod_Fig2_2018.JPG" alt="Figure 2 from Fitzpatrick and Neeson 2018" width="35%" align="left" hspace="20" vspace="1"> While at the University of Oklahoma, my research evaluated the use of return-on-investment frameworks to guide freshwater connectivity restoration efforts. I created individual-based model to demonstrate how spatial optimization could maximize conservation outcomes for both stream-resident and migratory fisheries (Fitzpatrick and Neeson, 2018) and, in collaboration with researchers from The Nature Conservancy and the University of Wisconsin-Madison, evaluated how indicator species could help guide restoration efforts in Great Lakes tributaries (Fitzpatrick et al. 2021, Neeson et al. 2018).</p>
+<p><img src="pictures/FitzpatrickNeeson_EcolMod_Fig2_2018.JPG" alt="Figure 2 from Fitzpatrick and Neeson 2018" width="35%" align="left" hspace="20" vspace="1">
+While at the University of Oklahoma, my research evaluated the use of
+return-on-investment frameworks to guide freshwater connectivity
+restoration efforts. I created individual-based model to demonstrate how
+spatial optimization could maximize conservation outcomes for both
+stream-resident and migratory fisheries and, in collaboration with
+researchers from The Nature Conservancy and the University of
+Wisconsin-Madison, evaluated how indicator species could help guide
+restoration efforts in Great Lakes tributaries.</p>
+<p><br> <b>Recent Publications</b></p>
+<p><b>Fitzpatrick, K.B.,</b> Moody, A.T., Milt, A., Herbert, M.E,
+Khoury, M., Yacobson, E., Ross, J.A., Doran, P.J., Ferris, M.C.,
+McIntyre, P.B., Neeson, T.M. 2021. Can indicator species guide
+conservation investments to restore connectivity in Great Lakes
+tributaries? Biodiversity and Conservation. 30: 165-182. <a
+href="https://doi.org/10.1007/s10531-020-02084-5"
+class="uri">https://doi.org/10.1007/s10531-020-02084-5</a> <br></p>
+<p>Neeson, T.M., Doran, P.J., Ferris, M.C., <b> Fitzpatrick, K.B., </b>
+Herbert, M., Khoury, M., Moody, A.T., Ross, J., Yacobson, E., McIntyre,
+P.B. 2018. Conserving rare species can have high opportunity costs for
+common species. Global Change Biology. 24(8): 3862-3872. <a
+href="https://doi.org/10.1111/gcb.14162"
+class="uri">https://doi.org/10.1111/gcb.14162</a> <br></p>
+<p><b>Fitzpatrick, K.B., </b> Neeson, T.M. 2018. Aligning dam removals
+and road culvert upgrades boosts conservation return-on-investment.
+Ecological Modelling. 368: 198-204. <a
+href="https://doi.org/10.1016/j.ecolmodel.2017.11.018"
+class="uri">https://doi.org/10.1016/j.ecolmodel.2017.11.018</a> <br></p>
 </div>
 
 

@@ -13,7 +13,7 @@
 
 <title>Hello!</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -262,7 +266,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:&lt;kbf53@cornell.edu&gt;">
+  <a href="https://kbfitzpatrick.github.io/about.html">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -289,9 +293,20 @@ $(document).ready(function () {
 
 <hr />
 <p><img src="pictures/FitzpatrickKB_walleye.jpg" alt="Kimberly Fitzpatrick" width="24%" align="left" hspace="20" vspace="1"></p>
-<p>I am a quantitative ecologist with a focus on fisheries management and population dynamics.My research interests center on developing innovative statistical tools that leverage ecological dynamics to support resource-efficient fisheries assessments.</p>
-<p>Currently, I am finishing up my Ph.D. in Natural Resources at Cornell University as part of the Sethi Lab and the New York Cooperative Research Unit. My Ph.D. research has involved working closely with fisheries managers and biologists to develop stock assessment tools for informing recreational fisheries management in Lake Ontario. Prior to Cornell, I received my M.S. in Geography from the University of Oklahoma while doing research on optimizing fish passage restoration and my B.S. in Marine Science from Eckerd College. <br></p>
-<p>In my free time, I am an avid baker and particularly enjoy creating aquatic themed baked goods! <br></p>
+<p>I am a quantitative ecologist with a focus on fisheries management
+and population dynamics.My research interests center on developing
+innovative statistical tools that leverage ecological dynamics to
+support resource-efficient fisheries assessments.</p>
+<p>Currently, I am finishing up my Ph.D. in Natural Resources at Cornell
+University as part of the Sethi Lab and the New York Cooperative
+Research Unit. My Ph.D. research has involved working closely with
+fisheries managers and biologists to develop stock assessment tools for
+informing recreational fisheries management in Lake Ontario. Prior to
+Cornell, I received my M.S. in Geography from the University of Oklahoma
+while doing research on optimizing fish passage restoration and my B.S.
+in Marine Science from Eckerd College. <br></p>
+<p>In my free time, I am an avid baker and particularly enjoy creating
+aquatic themed baked goods! <br></p>
 
 
 

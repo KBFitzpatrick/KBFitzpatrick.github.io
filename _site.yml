@@ -3,7 +3,7 @@ navbar:
   title: "Kimberly B. Fitzpatrick"
   right: 
     - icon: fa-envelope fa-lg
-      href: mailto:<kbf53@cornell.edu>
+      href: https://kbfitzpatrick.github.io/about.html
     - icon: fa fa-twitter fa-stack-1x
       href: https://twitter.com/kbfitzpatrick
   left:

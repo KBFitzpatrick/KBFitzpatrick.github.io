@@ -74,7 +74,7 @@ knitr::opts_chunk$set(echo = T)
 ## **Publications**
 <b>Fitzpatrick, K.B.,</b> Overgaard Therkildsen, N., Marcy-Quay, B., Borchardt-Wier, H.B., Sethi, S.A. Discriminating between natural and stocked recruitment in inland fisheries using parentage-based tagging. In review at Fisheries Management and Ecology. <br>
 
-<b>Fitzpatrick, K.B., </b> Weidel, B.C., Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B., LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A. 2022. Balancing prey availability and predator consumption: a multispecies stock assessment for Lake Ontario. Canadian Journal of Fisheries and Aquatic Sciences.
+<b>Fitzpatrick, K.B., </b> Weidel, B.C., Connerton, M.J., Lantry, J.R., Holden, J.P., Yuille, M.J., Lantry, B., LaPan, S.R., Rudstam, L.G., Sullivan, P.J., Brenden, T.O., Sethi, S.A. 2022. Balancing prey availability and predator consumption: a multispecies stock assessment for Lake Ontario. Canadian Journal of Fisheries and Aquatic Sciences. https://doi.org/10.1139/cjfas-2021-0126
 
 <b>Fitzpatrick, K.B.,</b> Moody, A.T., Milt, A., Herbert, M.E, Khoury, M., Yacobson, E., Ross, J.A., Doran, P.J., Ferris, M.C., McIntyre, P.B., Neeson, T.M. 2021. Can indicator species guide conservation investments to restore connectivity in Great Lakes tributaries? Biodiversity and Conservation. 30: 165-182. https://doi.org/10.1007/s10531-020-02084-5 <br>
 
